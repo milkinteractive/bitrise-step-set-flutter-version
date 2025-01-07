@@ -15,7 +15,7 @@ workflows:
         title: Step Test
         run_if: true
         inputs:
-        - project_location: './'
+        - project_location: './test_project'
         - bitrise_buildnumber: 999
         - application_version: 1.2.3
     - script:
